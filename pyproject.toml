@@ -1,0 +1,21 @@
+[project]
+name = "image-dpi"
+version = "0.1.0"
+description = "A tool to detect and set DPI for image files"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pillow>=9.0.0",
+    "exifread>=3.0.0",
+]
+
+[project.scripts]
+image-dpi = "image_dpi.image_dpi:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["image_dpi"]
