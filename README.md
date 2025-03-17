@@ -14,7 +14,7 @@ The tool can be used both as a command-line utility and as a Python library.
 
 ```bash
 # Clone the repository
-git clone https://github.com/harperreed/image-dpi.git
+git clone https://github.com/kevinmcmahon/image_dpi.git
 cd image-dpi
 
 # Install using pip (recommended)
